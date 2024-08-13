@@ -13,7 +13,7 @@ public class ListaDeTarefas {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<String> tarefas = new ArrayList<String>();
 		
-		for(int i = 1 ; i < 15 ; i++) {
+		for(int i = 1 ; i <= 10 ; i++) {
 			System.out.print("Digite 0 para sair ou adicione a tarefa de número " + i + " : ");
 			String tarefa = sc.next();
 			if(tarefa == "0") {
